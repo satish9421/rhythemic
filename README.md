@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/JAY01-CYBER/M3-Play/main/assets/banner.png" width="100%">
+  <img src="https://raw.githubusercontent.com/satish9421/rhythemic/main/assets/banner.png" width="100%">
 </p>
 
-<h1 align="center">🎧 M3 Play</h1>
+<h1 align="center">🎧 Rhythemic</h1>
 
 <p align="center">
 Powerful • Dynamic • Next-Gen Music Player
@@ -13,13 +13,13 @@ Powerful • Dynamic • Next-Gen Music Player
 ## 🚀 Download & Install
 
 <p align="center">
-  <a href="https://github.com/JAY01-CYBER/M3-Play/releases/latest">
+  <a href="https://github.com/satish9421/rhythemic/releases/latest">
     <img src="https://img.shields.io/badge/Download-APK-1DB954?style=for-the-badge&logo=android&logoColor=white" />
   </a>
   
   [<img src="https://gitlab.com/IzzyOnDroid/repo/-/raw/master/assets/IzzyOnDroidButtonGreyBorder_nofont.png" height="80" alt="Get it at IzzyOnDroid">](https://apt.izzysoft.de/packages/com.j.m3play)
 
-  <a href="https://github.com/JAY01-CYBER/M3-Play">
+  <a href="https://github.com/satish9421/rhythemic">
     <img src="https://img.shields.io/badge/Install-via%20Obtainium-3b82f6?style=for-the-badge" />
   </a>
 </p>
@@ -32,23 +32,23 @@ Prefer automatic updates? Use Obtainium:
 
 1. Install Obtainium  
 2. Add this repository:  
-   https://github.com/JAY01-CYBER/M3-Play  
+   https://github.com/satish9421/rhythemic  
 3. Install and enjoy automatic updates  
 
 ---
 
 <p align="center">
-  <img src="https://img.shields.io/github/stars/JAY01-CYBER/M3-Play?style=for-the-badge&color=1DB954"/>
-  <img src="https://img.shields.io/github/forks/JAY01-CYBER/M3-Play?style=for-the-badge&color=1DB954"/>
-  <img src="https://img.shields.io/github/downloads/JAY01-CYBER/M3-Play/total?style=for-the-badge&color=1DB954"/>
-  <img src="https://img.shields.io/github/v/release/JAY01-CYBER/M3-Play?include_prereleases&style=for-the-badge&color=1DB954" />
+  <img src="https://img.shields.io/github/stars/satish9421/rhythemic?style=for-the-badge&color=1DB954"/>
+  <img src="https://img.shields.io/github/forks/satish9421/rhythemic?style=for-the-badge&color=1DB954"/>
+  <img src="https://img.shields.io/github/downloads/satish9421/rhythemic/total?style=for-the-badge&color=1DB954"/>
+  <img src="https://img.shields.io/github/v/release/satish9421/rhythemic?include_prereleases&style=for-the-badge&color=1DB954" />
 </p>
 
 ---
 
 ## 🚀 About
 
-M3 Play is a feature-packed Android music player built for speed, customization, and a visually immersive experience.
+Rhythemic is a feature-packed Android music player built for speed, customization, and a visually immersive experience.
 
 Inspired by modern streaming platforms — built for power users.
 
@@ -62,14 +62,6 @@ Inspired by modern streaming platforms — built for power users.
 - 🎧 Built for real music lovers  
 
 ---
-
-## 📸 Screenshots
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/JAY01-CYBER/M3-Play/main/assets/ss1.jpg" width="30%" />
-  <img src="https://raw.githubusercontent.com/JAY01-CYBER/M3-Play/main/assets/ss2.jpg" width="30%" />
-  <img src="https://raw.githubusercontent.com/JAY01-CYBER/M3-Play/main/assets/ss3.jpg" width="30%" />
-</p>
 
 ---
 
@@ -85,28 +77,7 @@ Inspired by modern streaming platforms — built for power users.
 
 ---
 
-## 🌍 Translations
 
-Help us translate M3 Play into your native language! Every contribution is highly appreciated.
-
-<p align="center">
-  <a href="https://crowdin.com/project/M3Play">
-    <img src="https://img.shields.io/badge/Translate-on%20Crowdin-2E3340?style=for-the-badge&logo=crowdin&logoColor=white" />
-  </a>
-</p>
-
----
-
-## 🌐 Community
-
-<p align="center">
-  <a href="https://discord.gg/pDv6TYYkfE">
-    <img src="https://img.shields.io/badge/Discord-Community-5865F2?style=for-the-badge&logo=discord&logoColor=white" />
-  </a>
-  <a href="https://t.me/M3Play_supports">
-    <img src="https://img.shields.io/badge/Telegram-Updates-229ED9?style=for-the-badge&logo=telegram&logoColor=white" />
-  </a>
-</p>
 
 ---
 
@@ -123,14 +94,14 @@ Help us translate M3 Play into your native language! Every contribution is highl
 
 ## 🧑‍💻 Developer
 
-Jay  
-https://github.com/JAY01-CYBER  
+Satish 
+https://github.com/satish9421
 
 ---
 
 ## ⭐ Support
 
-If you like M3 Play:
+If you like  rhythemic:
 
 - ⭐ Star the repo  
 - 🍴 Fork it  
