@@ -6,19 +6,6 @@ Powerful • Dynamic • Next-Gen Music Player
 
 ---
 
-## 🚀 Download & Install
-
-<p align="center">
-  <a href="https://github.com/satish9421/rhythemic/releases/latest">
-    <img src="https://img.shields.io/badge/Download-APK-1DB954?style=for-the-badge&logo=android&logoColor=white" />
-  </a>
-  
-  [<img src="https://gitlab.com/IzzyOnDroid/repo/-/raw/master/assets/IzzyOnDroidButtonGreyBorder_nofont.png" height="80" alt="Get it at IzzyOnDroid">](https://apt.izzysoft.de/packages/com.j.m3play)
-
-  <a href="https://github.com/satish9421/rhythemic">
-    <img src="https://img.shields.io/badge/Install-via%20Obtainium-3b82f6?style=for-the-badge" />
-  </a>
-</p>
 
 ---
 
