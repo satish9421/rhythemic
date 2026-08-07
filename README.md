@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/satish9421/rhythemic/main/assets/banner.png" width="100%">
-</p>
-
 <h1 align="center">🎧 Rhythemic</h1>
 
 <p align="center">
