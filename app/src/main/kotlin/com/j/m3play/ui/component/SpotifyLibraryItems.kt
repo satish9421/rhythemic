@@ -1,6 +1,6 @@
 
 
-package com.j.m3play.ui.component
+package com.j.rhythemic.ui.component
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.focusable

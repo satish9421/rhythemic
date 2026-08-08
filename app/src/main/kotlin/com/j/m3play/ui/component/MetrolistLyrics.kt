@@ -6,7 +6,7 @@
  * ╰──────────────────────────────────────────────────────────╯
  */
 
-package com.j.m3play.ui.component
+package com.j.rhythemic.ui.component
 
 import androidx.compose.animation.core.*
 import androidx.compose.foundation.Canvas

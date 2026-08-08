@@ -1,4 +1,4 @@
-package com.j.m3play.ui.component
+package com.j.rhythemic.ui.component
 
 import androidx.compose.animation.core.*
 import androidx.compose.foundation.clickable
@@ -19,7 +19,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.j.m3play.viewmodels.MetrolistViewModel
+import com.j.rhythemic.viewmodels.MetrolistViewModel
 
 @Composable
 fun MetrolistLyricsView(

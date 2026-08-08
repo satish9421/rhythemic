@@ -1,11 +1,11 @@
 /*
- * M3Play - Modern Music Player
+ * Rhythemic - Music Player
  *
- * Copyright (c) 2026 JAY01-CYBER
- * Signature: M3PLAY::GENERAL::V1
+ * Copyright (c) 2026 Satish Galande
+ * Signature: RHYTHEMIC::GENERAL::V1
  */
 
-package com.j.m3play.together
+package com.j.rhythemic.together
 
 import androidx.compose.runtime.Immutable
 import kotlin.math.absoluteValue

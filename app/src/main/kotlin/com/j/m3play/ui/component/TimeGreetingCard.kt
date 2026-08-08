@@ -1,14 +1,14 @@
 /*
- * ♪ M3Play Signature Component
+ * ♪ Rhythemic Signature Component
  * File: TimeGreetingCard.kt
  *
  * Crafted for immersive music experience
  * Designed & maintained by JAY01-CYBER
  * 
- * Signature: M3PLAY::SIGNATURE::TIME_GREETING::V5 (Canvas Art Fixed)
+ * Signature: RHYTHEMIC::SIGNATURE::TIME_GREETING::V5 (Canvas Art Fixed)
  */
 
-package com.j.m3play.ui.component
+package com.j.rhythemic.ui.component
 
 import androidx.compose.animation.core.*
 import androidx.compose.foundation.Canvas

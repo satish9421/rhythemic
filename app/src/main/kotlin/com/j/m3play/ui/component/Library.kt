@@ -1,6 +1,6 @@
 
 
-package com.j.m3play.ui.component
+package com.j.rhythemic.ui.component
 
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.clickable
@@ -16,16 +16,16 @@ import androidx.compose.ui.graphics.Shape
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
-import com.j.m3play.innertube.models.PlaylistItem
-import com.j.m3play.innertube.models.WatchEndpoint
-import com.j.m3play.R
-import com.j.m3play.db.entities.Album
-import com.j.m3play.db.entities.Artist
-import com.j.m3play.db.entities.Playlist
-import com.j.m3play.ui.menu.AlbumMenu
-import com.j.m3play.ui.menu.ArtistMenu
-import com.j.m3play.ui.menu.PlaylistMenu
-import com.j.m3play.ui.menu.YouTubePlaylistMenu
+import com.j.rhythemic.innertube.models.PlaylistItem
+import com.j.rhythemic.innertube.models.WatchEndpoint
+import com.j.rhythemic.R
+import com.j.rhythemic.db.entities.Album
+import com.j.rhythemic.db.entities.Artist
+import com.j.rhythemic.db.entities.Playlist
+import com.j.rhythemic.ui.menu.AlbumMenu
+import com.j.rhythemic.ui.menu.ArtistMenu
+import com.j.rhythemic.ui.menu.PlaylistMenu
+import com.j.rhythemic.ui.menu.YouTubePlaylistMenu
 import kotlinx.coroutines.CoroutineScope
 
 @Composable

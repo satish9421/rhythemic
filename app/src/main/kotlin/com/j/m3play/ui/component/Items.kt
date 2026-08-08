@@ -2,7 +2,7 @@
 
 @file:OptIn(ExperimentalMaterial3ExpressiveApi::class)
 
-package com.j.m3play.ui.component
+package com.j.rhythemic.ui.component
 
 import android.annotation.SuppressLint
 import android.widget.Toast

@@ -1,6 +1,6 @@
 @file:OptIn(ExperimentalMaterial3ExpressiveApi::class)
 
-package com.j.m3play.ui.component
+package com.j.rhythemic.ui.component
 
 import androidx.compose.animation.animateColorAsState
 import androidx.compose.animation.animateContentSize

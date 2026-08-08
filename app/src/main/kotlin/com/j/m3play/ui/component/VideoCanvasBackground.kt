@@ -1,9 +1,9 @@
 /*
- * M3Play UI System
+ * Rhythemic UI System
  * Background Video Canvas Renderer
  */
 
-package com.j.m3play.ui.component
+package com.j.rhythemic.ui.component
 
 import android.view.ViewGroup.LayoutParams.MATCH_PARENT
 import android.widget.FrameLayout

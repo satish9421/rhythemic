@@ -1,11 +1,11 @@
 /*
- * M3Play - Modern Music Player
+ * Rhythemic - Music Player
  *
- * Copyright (c) 2026 JAY01-CYBER
- * Signature: M3PLAY::GENERAL::V1
+ * Copyright (c) 2026 Satish Galande
+ * Signature: RHYTHEMIC::GENERAL::V1
  */
 
-package com.j.m3play.together
+package com.j.rhythemic.together
 
 import androidx.datastore.core.DataStore
 import androidx.datastore.preferences.core.Preferences
@@ -13,7 +13,7 @@ import java.net.URI
 
 object TogetherOnlineEndpoint {
 
-    private const val MyServerBaseUrl = "https://m3play.thessc.edu.eu.org"
+    private const val MyServerBaseUrl = "https://rhythemic.thessc.edu.eu.org"
 
     suspend fun baseUrlOrNull(
         dataStore: DataStore<Preferences>,

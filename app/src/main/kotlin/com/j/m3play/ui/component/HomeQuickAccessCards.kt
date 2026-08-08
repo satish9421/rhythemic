@@ -1,14 +1,14 @@
 /*
- * ♪ M3Play Signature Component
+ * ♪ Rhythemic Signature Component
  * File: HomeQuickAccessCards.kt
  *
  * Crafted for immersive music experience
  * Designed & maintained by JAY01-CYBER
  *
- * Signature: M3PLAY::SIGNATURE::QUICK_ACCESS::V2
+ * Signature: RHYTHEMIC::SIGNATURE::QUICK_ACCESS::V2
  */
 
-package com.j.m3play.ui.component
+package com.j.rhythemic.ui.component
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement

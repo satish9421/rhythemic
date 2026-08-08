@@ -1,11 +1,11 @@
 /*
- * M3Play Component Module
+ * Rhythemic Component Module
  *
  * Reusable UI building block
- * Signature: M3PLAY::COMPONENT::V1
+ * Signature: RHYTHEMIC::COMPONENT::V1
  */
 
-package com.j.m3play.ui.component
+package com.j.rhythemic.ui.component
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement

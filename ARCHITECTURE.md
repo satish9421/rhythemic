@@ -1,6 +1,6 @@
-# M3-Play Architecture Overview
+# Rhythemic Application Architecture Overview
 
-This document provides an overview of the M3-Play application architecture using a diagram-based approach.
+This document provides an overview of the Rhythemic application architecture using a diagram-based approach.
 
 ## Architecture Diagram
 

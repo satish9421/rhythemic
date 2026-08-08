@@ -1,6 +1,6 @@
 /*
- * M3Play Component Module 
- * Signature: M3PLAY::COMPONENT
+ * Rhythemic Component Module 
+ * Signature: RHYTHEMIC::COMPONENT
  *
  * Credits: 
  * Advanced playback drift correction, syllable syncing logic, 
@@ -9,7 +9,7 @@
  * Respect and thanks to the original developer!
  */
 
-package com.j.m3play.ui.component
+package com.j.rhythemic.ui.component
 
 import android.annotation.SuppressLint
 import android.content.Intent

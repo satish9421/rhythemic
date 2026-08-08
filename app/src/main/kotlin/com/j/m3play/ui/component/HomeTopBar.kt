@@ -1,14 +1,14 @@
 /*
  * ╭────────────────────────────────────────────╮
- * │             M3Play UI System               │
+ * │             Rhythemic UI System               │
  * │--------------------------------------------│
  * │  Crafted for expressive music experience   │
  * │  Glossy Premium Top Bar Component          │
- * │  Signature: M3PLAY::UI::GLOSSY_TOPBAR_V4   │
+ * │  Signature: RHYTHEMIC::UI::GLOSSY_TOPBAR_V4   │
  * ╰────────────────────────────────────────────╯
  */
 
-package com.j.m3play.ui.component
+package com.j.rhythemic.ui.component
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable

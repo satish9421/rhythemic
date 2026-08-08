@@ -1,11 +1,11 @@
 /*
- * M3Play - Modern Music Player
+ * Rhythemic - Music Player
  *
- * Copyright (c) 2026 JAY01-CYBER
- * Signature: M3PLAY::GENERAL::V1
+ * Copyright (c) 2026 Satish Galande
+ * Signature: RHYTHEMIC::GENERAL::V1
  */
 
-package com.j.m3play.together
+package com.j.rhythemic.together
 
 import java.net.URI
 import java.net.URLDecoder
@@ -32,7 +32,7 @@ data class TogetherJoinInfo(
             ).joinToString("&") { (k, v) ->
                 "${URLEncoder.encode(k, charset)}=${URLEncoder.encode(v, charset)}"
             }
-        return "m3play://together?$q"
+        return "rhythemic://together?$q"
     }
 }
 
@@ -54,7 +54,7 @@ object TogetherLink {
     }
 
     private fun decodeDeepLink(uri: URI): TogetherJoinInfo? {
-        if (!uri.scheme.equals("m3play", ignoreCase = true)) return null
+        if (!uri.scheme.equals("rhythemic", ignoreCase = true)) return null
         val authority = uri.host?.lowercase() ?: uri.authority?.lowercase() ?: return null
         if (authority != "together") return null
 

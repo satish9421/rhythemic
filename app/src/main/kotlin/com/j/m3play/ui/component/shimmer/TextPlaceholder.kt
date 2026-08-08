@@ -1,11 +1,11 @@
 /*
- * M3Play Component Module
+ * Rhythemic Component Module
  *
  * Reusable UI building block
- * Signature: M3PLAY::COMPONENT::V1
+ * Signature: RHYTHEMIC::COMPONENT::V1
  */
 
-package com.j.m3play.ui.component.shimmer
+package com.j.rhythemic.ui.component.shimmer
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
