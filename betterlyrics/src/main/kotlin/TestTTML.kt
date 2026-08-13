@@ -1,11 +1,11 @@
-/*
- * M3Play - Modern Music Player
+﻿/*
+ * Rhythemic - Modern Music Player
  *
  * Copyright (c) 2026 JAY01-CYBER
- * Signature: M3PLAY::GENERAL::V1
+ * Signature: Rhythemic::GENERAL::V1
  */
 
-import com.j.m3play.betterlyrics.TTMLParser
+import com.j.rhythemic.betterlyrics.TTMLParser
 
 fun main(args: Array<String>) {
     val ttml = """

@@ -1,16 +1,16 @@
-/*
- * M3Play Data Layer
+﻿/*
+ * Rhythemic Data Layer
  *
  * Handles data, network & storage
- * Signature: M3PLAY::DATA::CORE::V1
+ * Signature: Rhythemic::DATA::CORE::V1
  */
 
-package com.j.m3play.innertube.pages
+package com.j.rhythemic.innertube.pages
 
-import com.j.m3play.innertube.models.BrowseEndpoint
-import com.j.m3play.innertube.models.GridRenderer
-import com.j.m3play.innertube.models.MusicNavigationButtonRenderer
-import com.j.m3play.innertube.models.SectionListRenderer
+import com.j.rhythemic.innertube.models.BrowseEndpoint
+import com.j.rhythemic.innertube.models.GridRenderer
+import com.j.rhythemic.innertube.models.MusicNavigationButtonRenderer
+import com.j.rhythemic.innertube.models.SectionListRenderer
 
 data class MoodAndGenres(
     val title: String,

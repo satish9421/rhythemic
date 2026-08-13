@@ -1,7 +1,7 @@
-package com.j.paxsenix
+﻿package com.j.paxsenix
 
 import android.util.Log
-import com.j.m3play.betterlyrics.TTMLParser
+import com.j.rhythemic.betterlyrics.TTMLParser
 import com.j.paxsenix.models.AppleMusicSearchResponse
 import com.j.paxsenix.models.LyricsResponse
 import com.j.paxsenix.models.SearchResult
@@ -42,7 +42,7 @@ object Paxsenix {
             }
             defaultRequest {
                 url("https://lyrics.paxsenix.org")
-                header("User-Agent", "M3Play/1.0")
+                header("User-Agent", "Rhythemic/1.0")
             }
             expectSuccess = true
         }

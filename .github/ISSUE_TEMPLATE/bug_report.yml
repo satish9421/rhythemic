@@ -1,5 +1,5 @@
-name: Bug Report
-description: Report a bug to help us improve M3Play
+﻿name: Bug Report
+description: Report a bug to help us improve Rhythemic
 labels: [BUG]
 body:
   - type: checkboxes
@@ -64,7 +64,7 @@ body:
   - type: input
     id: environment-app-version
     attributes:
-      label: M3Play Version
+      label: Rhythemic Version
       description: Found in Settings -> About.
       placeholder: e.g., 0.5.3 (Debug)
     validations:

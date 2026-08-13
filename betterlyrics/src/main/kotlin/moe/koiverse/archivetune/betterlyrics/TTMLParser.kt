@@ -1,11 +1,11 @@
-/*
- * M3Play Data Layer
+﻿/*
+ * Rhythemic Data Layer
  *
  * Handles data, network & storage
- * Signature: M3PLAY::DATA::CORE::V1
+ * Signature: Rhythemic::DATA::CORE::V1
  */
 
-package com.j.m3play.betterlyrics
+package com.j.rhythemic.betterlyrics
 
 import org.w3c.dom.Element
 import org.w3c.dom.Node

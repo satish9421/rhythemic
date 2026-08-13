@@ -1,15 +1,15 @@
-/*
- * M3Play Data Layer
+﻿/*
+ * Rhythemic Data Layer
  *
  * Handles data, network & storage
- * Signature: M3PLAY::DATA::CORE::V1
+ * Signature: Rhythemic::DATA::CORE::V1
  */
 
-package com.j.m3play.innertube.utils
+package com.j.rhythemic.innertube.utils
 
-import com.j.m3play.innertube.YouTube
-import com.j.m3play.innertube.pages.LibraryPage
-import com.j.m3play.innertube.pages.PlaylistPage
+import com.j.rhythemic.innertube.YouTube
+import com.j.rhythemic.innertube.pages.LibraryPage
+import com.j.rhythemic.innertube.pages.PlaylistPage
 import java.security.MessageDigest
 
 @JvmName("completedLibrary")

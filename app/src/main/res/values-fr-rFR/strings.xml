@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="home">Accueil</string>
     <string name="songs">Titres</string>
@@ -350,8 +350,8 @@
     <string name="custom_value">Valeur personnalisée</string>
     <string name="new_library_design">Nouveau design de la bibliothèque</string>
     <string name="new_library_design_description">Activer la nouvelle conception de la bibliothèque (peut présenter des instabilités)</string>
-    <string name="m3play_canvas">M3Play Canvas</string>
-    <string name="m3play_canvas_desc">Animation des pochettes d\'album pendant la lecture (avec BetterLyrics)</string>
+    <string name="Rhythemic_canvas">Rhythemic Canvas</string>
+    <string name="Rhythemic_canvas_desc">Animation des pochettes d\'album pendant la lecture (avec BetterLyrics)</string>
     <string name="show_button1_description">Activer ou désactiver l\'affichage du bouton 1 dans Discord Rich Presence</string>
     <string name="show_button2_description">Activer ou désactiver l\'affichage du bouton 2 dans Discord Rich Presence</string>
     <string name="discord_activity_type">Type d\'activité</string>
@@ -393,7 +393,7 @@
     <string name="login">Connexion</string>
     <string name="not_logged_in">Non connecté</string>
     <string name="login_failed">Échec de la connexion</string>
-    <string name="playback_requires_youtube_music_confirmation">Confirmez la lecture dans YouTube Music, puis revenez à M3Play.</string>
+    <string name="playback_requires_youtube_music_confirmation">Confirmez la lecture dans YouTube Music, puis revenez à Rhythemic.</string>
     <string name="content_language">Langue par défaut du contenu</string>
     <string name="content_country">Pays par défaut</string>
     <string name="system_default">Paramètres par défaut du système</string>
@@ -510,8 +510,8 @@
     <string name="restore_success">Sauvegarde restaurée avec succès</string>
     <string name="restore_failed">Échec de la restauration de la sauvegarde</string>
     <string name="discord_integration">Intégration Discord</string>
-    <string name="discord_information">M3Play utilise la bibliothèque KizzyRPC pour définir le statut de votre compte Discord. Cela implique l\'utilisation de la connexion via la passerelle Discord, ce qui peut être considéré comme une violation des conditions d\'utilisation de Discord. Cependant, aucun cas de suspension de compte d\'utilisateur pour cette raison n\'a été signalé à ce jour. Utilisez cette fonctionnalité à vos propres risques.
-M3Play se contente d\'extraire votre jeton ; toutes les autres données sont stockées localement.</string>
+    <string name="discord_information">Rhythemic utilise la bibliothèque KizzyRPC pour définir le statut de votre compte Discord. Cela implique l\'utilisation de la connexion via la passerelle Discord, ce qui peut être considéré comme une violation des conditions d\'utilisation de Discord. Cependant, aucun cas de suspension de compte d\'utilisateur pour cette raison n\'a été signalé à ce jour. Utilisez cette fonctionnalité à vos propres risques.
+Rhythemic se contente d\'extraire votre jeton ; toutes les autres données sont stockées localement.</string>
     <string name="options">Options</string>
     <string name="preview">Aperçu</string>
     <string name="enable_discord_rpc">Activer la présence enrichie</string>
@@ -557,7 +557,7 @@ M3Play se contente d\'extraire votre jeton ; toutes les autres données sont sto
     <string name="select_language">Sélectionner la langue</string>
     <string name="close_dialog">Fermer</string>
     <string name="select_dialog">Sélectionner</string>
-    <string name="support_github">Évaluez M3Play !</string>
+    <string name="support_github">Évaluez Rhythemic !</string>
     <string name="new_update_available">Nouvelle mise à jour disponible</string>
     <string name="release_notes_unavailable">Les notes de mise à jour ne sont pas disponibles</string>
     <string name="update_text">Mise à jour</string>
@@ -657,9 +657,9 @@ M3Play se contente d\'extraire votre jeton ; toutes les autres données sont sto
     <string name="update_notification_channel_name">Mises à jour des applications</string>
     <string name="update_notification_channel_desc">Notifications concernant les nouvelles mises à jour de l\'application</string>
     <string name="update_notification_title">Mise à jour disponible</string>
-    <string name="update_notification_text">M3Play %s est désormais disponible</string>
+    <string name="update_notification_text">Rhythemic %s est désormais disponible</string>
     <string name="download">Télécharger</string>
-    <string name="permissions_title">Permettez à M3Play de fonctionner de manière optimale</string>
+    <string name="permissions_title">Permettez à Rhythemic de fonctionner de manière optimale</string>
     <string name="permissions_subtitle">Nous utilisons certaines autorisations pour lire et gérer votre musique de manière fiable. Vous pouvez les modifier à tout moment dans les paramètres système.</string>
     <string name="permission_storage_title">Accès au stockage</string>
     <string name="permission_storage_desc">Nécessaire pour lire vos fichiers audio téléchargés et stockés localement.</string>
@@ -673,7 +673,7 @@ M3Play se contente d\'extraire votre jeton ; toutes les autres données sont sto
     <string name="allow">Autoriser</string>
     <string name="you_might_like">Vous pourriez aimer</string>
     <string name="refresh_suggestions">Actualiser les suggestions</string>
-    <string name="music_together">M3Play Music Together</string>
+    <string name="music_together">Rhythemic Music Together</string>
     <string name="together_display_name">Nom d\'affichage</string>
     <string name="together_display_name_placeholder">Votre nom</string>
     <string name="together_port">Port de session</string>
@@ -729,10 +729,10 @@ M3Play se contente d\'extraire votre jeton ; toutes les autres données sont sto
     <string name="together_error_state">Erreur</string>
     <string name="got_it">Compris</string>
     <string name="together_dont_show_again">Ne plus afficher ce message</string>
-    <string name="together_welcome_title">Bienvenue sur M3Play Music Together</string>
+    <string name="together_welcome_title">Bienvenue sur Rhythemic Music Together</string>
     <string name="together_welcome_body">Music Together permet à plusieurs appareils de partager une session en direct grâce à une file d\'attente et une lecture synchronisées.</string>
     <string name="together_welcome_host_title">Organiser une session</string>
-    <string name="together_welcome_host_body">Appuyez sur « Démarrer la session », puis partagez le lien de la session. Laissez M3Play ouvert en arrière-plan pendant que vous hébergez la session.</string>
+    <string name="together_welcome_host_body">Appuyez sur « Démarrer la session », puis partagez le lien de la session. Laissez Rhythemic ouvert en arrière-plan pendant que vous hébergez la session.</string>
     <string name="together_welcome_join_title">Se connecter depuis un autre appareil</string>
     <string name="together_welcome_join_body">Ouvrez le lien partagé ou saisissez le code, puis appuyez sur « Rejoindre ». Votre file d\'attente et votre lecture suivront celles de l\'hôte.</string>
     <string name="together_welcome_permissions_title">Autorisations et sécurité</string>

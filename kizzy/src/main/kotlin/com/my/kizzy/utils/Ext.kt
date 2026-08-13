@@ -1,8 +1,8 @@
-/*
- * M3Play Utility Module
+﻿/*
+ * Rhythemic Utility Module
  *
  * Internal helper functions
- * Signature: M3PLAY::UTILITY::V1
+ * Signature: Rhythemic::UTILITY::V1
  */
 
 package com.my.kizzy.utils

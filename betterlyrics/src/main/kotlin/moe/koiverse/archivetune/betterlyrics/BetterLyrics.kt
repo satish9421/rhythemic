@@ -1,13 +1,13 @@
-/*
- * M3Play Data Layer
+﻿/*
+ * Rhythemic Data Layer
  *
  * Handles data, network & storage
- * Signature: M3PLAY::DATA::CORE::V1
+ * Signature: Rhythemic::DATA::CORE::V1
  */
 
-package com.j.m3play.betterlyrics
+package com.j.rhythemic.betterlyrics
 
-import com.j.m3play.betterlyrics.models.TTMLResponse
+import com.j.rhythemic.betterlyrics.models.TTMLResponse
 import io.ktor.client.HttpClient
 import io.ktor.client.engine.okhttp.OkHttp
 import io.ktor.client.plugins.contentnegotiation.ContentNegotiation

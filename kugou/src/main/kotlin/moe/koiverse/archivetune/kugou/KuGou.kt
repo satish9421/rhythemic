@@ -1,16 +1,16 @@
-/*
- * M3Play Data Layer
+﻿/*
+ * Rhythemic Data Layer
  *
  * Handles data, network & storage
- * Signature: M3PLAY::DATA::CORE::V1
+ * Signature: Rhythemic::DATA::CORE::V1
  */
 
-package com.j.m3play.kugou
+package com.j.rhythemic.kugou
 
-import com.j.m3play.kugou.models.DownloadLyricsResponse
-import com.j.m3play.kugou.models.Keyword
-import com.j.m3play.kugou.models.SearchLyricsResponse
-import com.j.m3play.kugou.models.SearchSongResponse
+import com.j.rhythemic.kugou.models.DownloadLyricsResponse
+import com.j.rhythemic.kugou.models.Keyword
+import com.j.rhythemic.kugou.models.SearchLyricsResponse
+import com.j.rhythemic.kugou.models.SearchSongResponse
 import io.ktor.client.HttpClient
 import io.ktor.client.call.body
 import io.ktor.client.plugins.compression.ContentEncoding

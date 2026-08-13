@@ -1,14 +1,14 @@
-/*
- * M3Play Data Layer
+﻿/*
+ * Rhythemic Data Layer
  *
  * Handles data, network & storage
- * Signature: M3PLAY::DATA::CORE::V1
+ * Signature: Rhythemic::DATA::CORE::V1
  */
 
-package com.j.m3play.lrclib
+package com.j.rhythemic.lrclib
 
-import com.j.m3play.lrclib.models.Track
-import com.j.m3play.lrclib.models.bestMatchingFor
+import com.j.rhythemic.lrclib.models.Track
+import com.j.rhythemic.lrclib.models.bestMatchingFor
 import io.ktor.client.HttpClient
 import io.ktor.client.call.body
 import io.ktor.client.engine.okhttp.OkHttp

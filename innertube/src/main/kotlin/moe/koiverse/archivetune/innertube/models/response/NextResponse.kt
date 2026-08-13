@@ -1,16 +1,16 @@
-/*
- * M3Play Data Layer
+﻿/*
+ * Rhythemic Data Layer
  *
  * Handles data, network & storage
- * Signature: M3PLAY::DATA::CORE::V1
+ * Signature: Rhythemic::DATA::CORE::V1
  */
 
-package com.j.m3play.innertube.models.response
+package com.j.rhythemic.innertube.models.response
 
-import com.j.m3play.innertube.models.NavigationEndpoint
-import com.j.m3play.innertube.models.PlaylistPanelRenderer
-import com.j.m3play.innertube.models.Tabs
-import com.j.m3play.innertube.models.YouTubeDataPage
+import com.j.rhythemic.innertube.models.NavigationEndpoint
+import com.j.rhythemic.innertube.models.PlaylistPanelRenderer
+import com.j.rhythemic.innertube.models.Tabs
+import com.j.rhythemic.innertube.models.YouTubeDataPage
 import kotlinx.serialization.Serializable
 
 @Serializable

@@ -1,4 +1,4 @@
-package com.j.m3play.innertube.models
+﻿package com.j.rhythemic.innertube.models
 
 data class HomeShelf(
     val title: String,

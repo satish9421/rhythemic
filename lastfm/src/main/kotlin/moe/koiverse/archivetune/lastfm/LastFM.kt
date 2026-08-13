@@ -1,15 +1,15 @@
-/*
- * M3Play Data Layer
+﻿/*
+ * Rhythemic Data Layer
  *
  * Handles data, network & storage
- * Signature: M3PLAY::DATA::CORE::V1
+ * Signature: Rhythemic::DATA::CORE::V1
  */
 
-package com.j.m3play.lastfm
+package com.j.rhythemic.lastfm
 
-import com.j.m3play.lastfm.models.Authentication
-import com.j.m3play.lastfm.models.LastFmError
-import com.j.m3play.lastfm.models.TokenResponse
+import com.j.rhythemic.lastfm.models.Authentication
+import com.j.rhythemic.lastfm.models.LastFmError
+import com.j.rhythemic.lastfm.models.TokenResponse
 import io.ktor.client.HttpClient
 import io.ktor.client.call.body
 import io.ktor.client.engine.okhttp.OkHttp
@@ -57,7 +57,7 @@ object LastFM {
         format: String = "json"
     ) {
         contentType(ContentType.Application.FormUrlEncoded)
-        userAgent("M3Play (https://github.com/JAY01-CYBER/M3-Play)")
+        userAgent("Rhythemic (https://github.com/JAY01-CYBER/M3-Play)")
         val paramsForSig = mutableMapOf(
             "method" to method,
             "api_key" to apiKey

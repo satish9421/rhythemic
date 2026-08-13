@@ -1,25 +1,25 @@
-/*
- * M3Play Data Layer
+﻿/*
+ * Rhythemic Data Layer
  *
  * Handles data, network & storage
- * Signature: M3PLAY::DATA::CORE::V1
+ * Signature: Rhythemic::DATA::CORE::V1
  */
 
-package com.j.m3play.innertube.models.response
+package com.j.rhythemic.innertube.models.response
 
-import com.j.m3play.innertube.models.Button
-import com.j.m3play.innertube.models.Continuation
-import com.j.m3play.innertube.models.GridRenderer
-import com.j.m3play.innertube.models.Menu
-import com.j.m3play.innertube.models.MusicDetailHeaderRenderer
-import com.j.m3play.innertube.models.MusicEditablePlaylistDetailHeaderRenderer
-import com.j.m3play.innertube.models.MusicShelfRenderer
-import com.j.m3play.innertube.models.ResponseContext
-import com.j.m3play.innertube.models.Runs
-import com.j.m3play.innertube.models.SectionListRenderer
-import com.j.m3play.innertube.models.SubscriptionButton
-import com.j.m3play.innertube.models.Tabs
-import com.j.m3play.innertube.models.ThumbnailRenderer
+import com.j.rhythemic.innertube.models.Button
+import com.j.rhythemic.innertube.models.Continuation
+import com.j.rhythemic.innertube.models.GridRenderer
+import com.j.rhythemic.innertube.models.Menu
+import com.j.rhythemic.innertube.models.MusicDetailHeaderRenderer
+import com.j.rhythemic.innertube.models.MusicEditablePlaylistDetailHeaderRenderer
+import com.j.rhythemic.innertube.models.MusicShelfRenderer
+import com.j.rhythemic.innertube.models.ResponseContext
+import com.j.rhythemic.innertube.models.Runs
+import com.j.rhythemic.innertube.models.SectionListRenderer
+import com.j.rhythemic.innertube.models.SubscriptionButton
+import com.j.rhythemic.innertube.models.Tabs
+import com.j.rhythemic.innertube.models.ThumbnailRenderer
 import kotlinx.serialization.Serializable
 
 @Serializable

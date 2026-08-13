@@ -1,15 +1,15 @@
-/*
- * M3Play Data Layer
+﻿/*
+ * Rhythemic Data Layer
  *
  * Handles data, network & storage
- * Signature: M3PLAY::DATA::CORE::V1
+ * Signature: Rhythemic::DATA::CORE::V1
  */
 
-package com.j.m3play.shazamkit
+package com.j.rhythemic.shazamkit
 
-import com.j.m3play.shazamkit.models.RecognitionResult
-import com.j.m3play.shazamkit.models.ShazamRequestJson
-import com.j.m3play.shazamkit.models.ShazamResponseJson
+import com.j.rhythemic.shazamkit.models.RecognitionResult
+import com.j.rhythemic.shazamkit.models.ShazamRequestJson
+import com.j.rhythemic.shazamkit.models.ShazamResponseJson
 import io.ktor.client.HttpClient
 import io.ktor.client.call.body
 import io.ktor.client.engine.cio.CIO

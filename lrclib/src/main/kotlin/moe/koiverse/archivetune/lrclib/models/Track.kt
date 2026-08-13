@@ -1,11 +1,11 @@
-/*
- * M3Play Data Layer
+﻿/*
+ * Rhythemic Data Layer
  *
  * Handles data, network & storage
- * Signature: M3PLAY::DATA::CORE::V1
+ * Signature: Rhythemic::DATA::CORE::V1
  */
 
-package com.j.m3play.lrclib.models
+package com.j.rhythemic.lrclib.models
 
 import kotlinx.serialization.Serializable
 import kotlin.math.abs

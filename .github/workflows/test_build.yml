@@ -1,4 +1,4 @@
-name: Test Build
+﻿name: Test Build
 
 on:
   workflow_dispatch:
@@ -68,7 +68,7 @@ jobs:
 
       - name: Change Package Name for Test Build
         run: |
-          sed -i 's/applicationId = "com.j.m3play"/applicationId = "com.j.m3play.test"/' app/build.gradle.kts
+          sed -i 's/applicationId = "com.j.rhythemic"/applicationId = "com.j.rhythemic.test"/' app/build.gradle.kts
 
       - name: Build Universal Release APK (No Lint)
         run: ./gradlew --console=plain assembleUniversalRelease --warning-mode summary -x lint -x lintUniversalRelease -x lintVitalReportUniversalRelease -x lintVitalUniversalRelease

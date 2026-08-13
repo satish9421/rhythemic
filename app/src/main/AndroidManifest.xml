@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
@@ -12,7 +12,9 @@
         android:maxSdkVersion="32" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
-    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission
+        android:name="android.permission.FOREGROUND_SERVICE"
+        tools:ignore="ForegroundServiceDeclaration" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" />
     <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
@@ -35,7 +37,7 @@
         android:usesCleartextTraffic="false"
         android:networkSecurityConfig="@xml/network_security_config"
         android:supportsRtl="false"
-        android:theme="@style/Theme.M3Play"
+        android:theme="@style/Theme.Rhythemic"
         tools:targetApi="tiramisu">
         <uses-library
             android:name="org.apache.http.legacy"
@@ -45,7 +47,7 @@
             android:name=".MainActivity"
             android:exported="true"
             android:launchMode="singleTask"
-            android:theme="@style/Theme.M3Play"
+            android:theme="@style/Theme.Rhythemic"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -65,10 +67,10 @@
 
                 <data
                     android:host="together"
-                    android:scheme="m3play" />
+                    android:scheme="rhythemic" />
             </intent-filter>
 
-            <intent-filter>
+            <intent-filter android:autoVerify="false">
                 <action android:name="android.intent.action.VIEW" />
                 <action android:name="android.media.action.MEDIA_PLAY_FROM_SEARCH" />
                 <action android:name="android.nfc.action.NDEF_DISCOVERED" />
@@ -93,7 +95,7 @@
                 <data android:pathPrefix="/search" />
             </intent-filter>
 
-            <intent-filter>
+            <intent-filter android:autoVerify="false">
                 <action android:name="android.intent.action.VIEW" />
                 <action android:name="android.media.action.MEDIA_PLAY_FROM_SEARCH" />
                 <action android:name="android.nfc.action.NDEF_DISCOVERED" />
@@ -180,16 +182,16 @@
             android:name=".DebugActivity"
             android:exported="true"
             android:process=":crash"
-            android:theme="@style/Theme.M3Play">
+            android:theme="@style/Theme.Rhythemic">
         </activity>
 
         <activity
             android:name=".ui.screens.settings.PoTokenExtractionActivity"
             android:exported="false"
-            android:theme="@style/Theme.M3Play" />
+            android:theme="@style/Theme.Rhythemic" />
 
         <receiver
-            android:name=".widget.M3PlayWidgetReceiver"
+            android:name=".widget.RhythemicWidgetReceiver"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />

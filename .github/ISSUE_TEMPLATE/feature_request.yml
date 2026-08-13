@@ -1,5 +1,5 @@
-name: Feature Request
-description: Share an idea to improve M3Play
+﻿name: Feature Request
+description: Share an idea to improve Rhythemic
 labels: [ENHANCEMENT]
 body:
   - type: checkboxes
@@ -30,7 +30,7 @@ body:
     id: proposed-solution
     attributes:
       label: Proposed Solution
-      description: Describe what you want to happen. How should this feature work in M3Play?
+      description: Describe what you want to happen. How should this feature work in Rhythemic?
       placeholder: Provide a detailed breakdown of the desired behavior or UI changes.
     validations:
       required: true

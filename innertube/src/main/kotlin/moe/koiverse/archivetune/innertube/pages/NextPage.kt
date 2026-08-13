@@ -1,21 +1,21 @@
-/*
- * M3Play Data Layer
+﻿/*
+ * Rhythemic Data Layer
  *
  * Handles data, network & storage
- * Signature: M3PLAY::DATA::CORE::V1
+ * Signature: Rhythemic::DATA::CORE::V1
  */
 
-package com.j.m3play.innertube.pages
+package com.j.rhythemic.innertube.pages
 
-import com.j.m3play.innertube.models.Album
-import com.j.m3play.innertube.models.Artist
-import com.j.m3play.innertube.models.BrowseEndpoint
-import com.j.m3play.innertube.models.PlaylistPanelVideoRenderer
-import com.j.m3play.innertube.models.SongItem
-import com.j.m3play.innertube.models.WatchEndpoint
-import com.j.m3play.innertube.models.oddElements
-import com.j.m3play.innertube.models.splitBySeparator
-import com.j.m3play.innertube.utils.parseTime
+import com.j.rhythemic.innertube.models.Album
+import com.j.rhythemic.innertube.models.Artist
+import com.j.rhythemic.innertube.models.BrowseEndpoint
+import com.j.rhythemic.innertube.models.PlaylistPanelVideoRenderer
+import com.j.rhythemic.innertube.models.SongItem
+import com.j.rhythemic.innertube.models.WatchEndpoint
+import com.j.rhythemic.innertube.models.oddElements
+import com.j.rhythemic.innertube.models.splitBySeparator
+import com.j.rhythemic.innertube.utils.parseTime
 
 data class NextResult(
     val title: String? = null,

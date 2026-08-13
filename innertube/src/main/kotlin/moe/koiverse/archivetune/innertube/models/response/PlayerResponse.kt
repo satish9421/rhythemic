@@ -1,19 +1,19 @@
-/*
- * M3Play Data Layer
+﻿/*
+ * Rhythemic Data Layer
  *
  * Handles data, network & storage
- * Signature: M3PLAY::DATA::CORE::V1
+ * Signature: Rhythemic::DATA::CORE::V1
  */
 
-package com.j.m3play.innertube.models.response
+package com.j.rhythemic.innertube.models.response
 
-import com.j.m3play.innertube.models.ResponseContext
-import com.j.m3play.innertube.models.Thumbnails
+import com.j.rhythemic.innertube.models.ResponseContext
+import com.j.rhythemic.innertube.models.Thumbnails
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 
 /**
- * PlayerResponse with [com.j.m3play.innertube.models.YouTubeClient.WEB_REMIX] client
+ * PlayerResponse with [com.j.rhythemic.innertube.models.YouTubeClient.WEB_REMIX] client
  */
 @Serializable
 data class PlayerResponse(

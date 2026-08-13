@@ -1,14 +1,14 @@
-/*
- * M3Play Data Layer
+﻿/*
+ * Rhythemic Data Layer
  *
  * Handles data, network & storage
- * Signature: M3PLAY::DATA::CORE::V1
+ * Signature: Rhythemic::DATA::CORE::V1
  */
 
-package com.j.m3play.innertube
+package com.j.rhythemic.innertube
 
-import com.j.m3play.innertube.models.YouTubeClient
-import com.j.m3play.innertube.models.response.PlayerResponse
+import com.j.rhythemic.innertube.models.YouTubeClient
+import com.j.rhythemic.innertube.models.response.PlayerResponse
 import io.ktor.http.URLBuilder
 import io.ktor.http.parseQueryString
 import okhttp3.OkHttpClient

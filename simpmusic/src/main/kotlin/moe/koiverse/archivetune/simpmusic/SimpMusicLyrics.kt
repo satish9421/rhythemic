@@ -1,14 +1,14 @@
-/*
- * M3Play Data Layer
+﻿/*
+ * Rhythemic Data Layer
  *
  * Handles data, network & storage
- * Signature: M3PLAY::DATA::CORE::V1
+ * Signature: Rhythemic::DATA::CORE::V1
  */
 
-package com.j.m3play.simpmusic
+package com.j.rhythemic.simpmusic
 
-import com.j.m3play.simpmusic.models.LyricsData
-import com.j.m3play.simpmusic.models.SimpMusicApiResponse
+import com.j.rhythemic.simpmusic.models.LyricsData
+import com.j.rhythemic.simpmusic.models.SimpMusicApiResponse
 import io.ktor.client.HttpClient
 import io.ktor.client.call.body
 import io.ktor.client.engine.okhttp.OkHttp

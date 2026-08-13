@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="home">Головна</string>
     <string name="songs">Пісні</string>
@@ -178,8 +178,8 @@
     <string name="playlist_imported">Плейліст імпортовано</string>
     <string name="removed_song_from_playlist">Видалено \"%s\" з плейліста</string>
     <string name="playlist_synced">Плейліст синхронізовано</string>
-    <string name="m3play_canvas">M3Play Canvas</string>
-    <string name="m3play_canvas_desc">Анімувати обкладинку альбому під час відтворення (за технологією BetterLyrics)</string>
+    <string name="Rhythemic_canvas">Rhythemic Canvas</string>
+    <string name="Rhythemic_canvas_desc">Анімувати обкладинку альбому під час відтворення (за технологією BetterLyrics)</string>
     <string name="action_sync">Синхронізувати</string>
     <string name="advanced">Розширені налаштування</string>
     <string name="tempo_and_pitch">Темп і висота звуку</string>

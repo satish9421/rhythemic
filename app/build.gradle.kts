@@ -16,11 +16,11 @@ if (localPropertiesFile.exists()) {
 }
 
 android {
-    namespace = "com.j.m3play"
+    namespace = "com.j.rhythemic"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.j.m3play"
+        applicationId = "com.j.rhythemic"
         minSdk = 26
         targetSdk = 36
         versionCode = 143
@@ -167,7 +167,7 @@ android {
 }
 
 kotlin {
-    jvmToolchain(21)
+    jvmToolchain(25)
 }
 
 ksp {

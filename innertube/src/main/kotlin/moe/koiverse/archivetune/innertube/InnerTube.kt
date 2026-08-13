@@ -1,21 +1,21 @@
-/*
- * M3Play Data Layer
+﻿/*
+ * Rhythemic Data Layer
  *
  * Handles data, network & storage
- * Signature: M3PLAY::DATA::CORE::V1
+ * Signature: Rhythemic::DATA::CORE::V1
  */
 
-package com.j.m3play.innertube
+package com.j.rhythemic.innertube
 
-import com.j.m3play.innertube.models.Context
-import com.j.m3play.innertube.models.MediaInfo
-import com.j.m3play.innertube.models.ReturnYouTubeDislikeResponse
-import com.j.m3play.innertube.models.YouTubeClient
-import com.j.m3play.innertube.models.YouTubeLocale
-import com.j.m3play.innertube.models.body.*
-import com.j.m3play.innertube.models.response.NextResponse
-import com.j.m3play.innertube.utils.parseCookieString
-import com.j.m3play.innertube.utils.sha1
+import com.j.rhythemic.innertube.models.Context
+import com.j.rhythemic.innertube.models.MediaInfo
+import com.j.rhythemic.innertube.models.ReturnYouTubeDislikeResponse
+import com.j.rhythemic.innertube.models.YouTubeClient
+import com.j.rhythemic.innertube.models.YouTubeLocale
+import com.j.rhythemic.innertube.models.body.*
+import com.j.rhythemic.innertube.models.response.NextResponse
+import com.j.rhythemic.innertube.utils.parseCookieString
+import com.j.rhythemic.innertube.utils.sha1
 import io.ktor.client.*
 import io.ktor.client.call.body
 import io.ktor.client.engine.okhttp.*
